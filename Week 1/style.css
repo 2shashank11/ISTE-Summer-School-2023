@@ -1,0 +1,141 @@
+body {
+    background-image: url(./assets/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: lighten;
+}
+
+.main-body {
+    background-color: rgba(0, 0, 0, 0.358);
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.head {
+    background-color: rgb(255, 140, 0);
+    border-radius:15px;
+    margin-top: 0;
+    width: 75%;
+    margin-left: 12.5%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+    padding: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 3em;
+}
+
+.head-menu {
+    width: 50%;
+    margin-left: 25%;
+}
+
+.menu-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style-type: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+li {
+    padding: 10px;
+    text-align: center;
+    border-radius: 15px;
+    background-color: rgb(255, 140, 0);
+    color: white;
+    font-weight: 900;
+    margin: 2px;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    color: aliceblue;
+    font-size: 60px;
+    font-family: 'Courier New', Courier, monospace;
+    width: 50%;
+    float: left;
+    height: 100%;
+}
+
+.content-pic {
+    float: left;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 50%;
+}
+
+img {
+    width: 20em;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.pics {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.foot{
+    margin-bottom: 5px;
+}
+
+footer {
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+li > a, h1 > a{
+    text-decoration: none;
+    height: 100%;
+}
+
+a{
+    color: white;
+}
+
+.end1 {
+    float: left;
+    width: 50%;
+}
+
+.end2 {
+    float: right;
+}
+
+.list-content {
+    background-color: rgba(0, 0, 0, 0.358);
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 5px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    margin: 2rem;
+}
+
+.list-content:hover{
+    scale: 1.02;
+    transition: 100ms;
+    background-color: rgba(0, 0, 0, 0.545);
+}
+
+.list-content > a {
+    text-decoration: none;
+    color: rgb(255, 140, 0);
+    height: 100%;
+    
+}
+
+h2{
+    padding: 0px;
+    margin-top: 3px;
+    margin-bottom: 2px;
+}

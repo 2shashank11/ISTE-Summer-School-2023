@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+    <div class="heading">
+        <h1>Bookify</h1>
+    <div>
+        <form id="search-books">
+        <input type="search" placeholder="Search books">  
+        </form>
+    </div>
+    </div>
+    <hr>
+    <div class="filter">
+        <label>Filter</label>
+        <select id="filter-selection">
+            <option value="select">None</option>
+            <option value="fiction">Fiction</option>
+            <option value="non-fiction">Non-Fiction</option>
+        </select>
+    </div>
+    <div id="book-list">
+        <div class="books" id="fiction">
+            <div id="book-description"><span id="book-name">Pride and Prejudice</span>
+                <div class="stars">
+                    <i class="fa-solid fa-star one"></i>
+                    <i class="fa-solid fa-star two"></i>
+                    <i class="fa-solid fa-star three"></i>
+                    <i class="fa-solid fa-star four"></i>
+                    <i class="fa-solid fa-star five"></i> 
+                </div>
+                <br>
+                <span class="genre"><em>Genre:</em> Fiction</span>
+                <br>
+                <span class="description"><em>Description: </em>A classic novel of love, manners, and societal norms in 19th-century England.</span>
+            </div>
+            <div id="book-delete"><button id="delete">×</button></div>
+        </div>
+
+        <div class="books" id="non-fiction">
+            <div id="book-description"><span id="book-name"> Diary of a Young Girl</span>
+                <div class="stars">
+                    <i class="fa-solid fa-star one"></i>
+                    <i class="fa-solid fa-star two"></i>
+                    <i class="fa-solid fa-star three"></i>
+                    <i class="fa-solid fa-star four"></i>
+                    <i class="fa-solid fa-star five"></i> 
+                </div>
+                <br>
+                <span class="genre"><em>Genre:</em>Non-Fiction</span>
+                <br>
+                <span class="description"><em>Description: </em>he poignant diary of a Jewish girl hiding during the Holocaust.</span>
+            </div>
+            <div id="book-delete"><button id="delete">×</button></div>
+        </div>
+
+        <div class="books" id="fiction">
+            <div id="book-description"><span id="book-name">To Kill a Mockingbird</span>
+                <div class="stars">
+                    <i class="fa-solid fa-star one"></i>
+                    <i class="fa-solid fa-star two"></i>
+                    <i class="fa-solid fa-star three"></i>
+                    <i class="fa-solid fa-star four"></i>
+                    <i class="fa-solid fa-star five"></i> 
+                </div>
+                <br>
+                <span class="genre"><em>Genre:</em>Fiction</span>
+                <br>
+                <span class="description"><em>Description: </em>A Pulitzer Prize-winning novel exploring racial injustice in the American South.</span>
+            </div>
+            <div id="book-delete"><button id="delete">×</button></div>
+        </div>
+
+        <div class="books" id="non-fiction">
+            <div id="book-description"><span id="book-name">Sapiens: A Brief History of Humankind</span>
+                <div class="stars">
+                    <i class="fa-solid fa-star one"></i>
+                    <i class="fa-solid fa-star two"></i>
+                    <i class="fa-solid fa-star three"></i>
+                    <i class="fa-solid fa-star four"></i>
+                    <i class="fa-solid fa-star five"></i> 
+                </div>
+                <br>
+                <span class="genre"><em>Genre:</em>Non-Fiction</span>
+                <br>
+                <span class="description"><em>Description: </em>A captivating account of the history and evolution of Homo sapiens.</span>
+            </div>
+            <div id="book-delete"><button id="delete">×</button></div>
+        </div>
+
+        <div class="books" id="fiction">
+            <div id="book-description"><span id="book-name">The Catcher in the Rye</span>
+                <div class="stars">
+                    <i class="fa-solid fa-star one"></i>
+                    <i class="fa-solid fa-star two"></i>
+                    <i class="fa-solid fa-star three"></i>
+                    <i class="fa-solid fa-star four"></i>
+                    <i class="fa-solid fa-star five"></i> 
+                </div>
+                <br>
+                <span class="genre"><em>Genre:</em> Fiction</span>
+                <br>
+                <span class="description"><em>Description: </em>A coming-of-age novel that follows the journey of a disenchanted teenager.</span>
+            </div>
+            <div id="book-delete"><button id="delete">×</button></div>
+        </div>
+
+        <div class="books" id="non-fiction">
+            <div id="book-description"><span id="book-name">Becoming</span>
+                <div class="stars">
+                    <i class="fa-solid fa-star one"></i>
+                    <i class="fa-solid fa-star two"></i>
+                    <i class="fa-solid fa-star three"></i>
+                    <i class="fa-solid fa-star four"></i>
+                    <i class="fa-solid fa-star five"></i> 
+                </div>
+                <br>
+                <span class="genre"><em>Genre:</em>Non-Fiction</span>
+                <br>
+                <span class="description"><em>Description: </em>An intimate memoir of the former First Lady of the United States.</span>
+            </div>
+            <div id="book-delete"><button id="delete">×</button></div>
+        </div>
+
+        <div class="books" id="fiction">
+            <div id="book-description"><span id="book-name"> Lord of the Rings</span>
+                <div class="stars">
+                    <i class="fa-solid fa-star one"></i>
+                    <i class="fa-solid fa-star two"></i>
+                    <i class="fa-solid fa-star three"></i>
+                    <i class="fa-solid fa-star four"></i>
+                    <i class="fa-solid fa-star five"></i> 
+                </div>
+                <br>
+                <span class="genre"><em>Genre:</em> Fiction</span>
+                <br>
+                <span class="description"><em>Description: </em>An epic fantasy adventure set in the mythical world of Middle-earth.</span>
+            </div>
+            <div id="book-delete"><button id="delete">×</button></div>
+        </div>
+
+        <div class="books" id="non-fiction">
+            <div id="book-description"><span id="book-name"> Immortal Life of Henrietta Lacks</span>
+                <div class="stars">
+                    <i class="fa-solid fa-star one"></i>
+                    <i class="fa-solid fa-star two"></i>
+                    <i class="fa-solid fa-star three"></i>
+                    <i class="fa-solid fa-star four"></i>
+                    <i class="fa-solid fa-star five"></i> 
+                </div>
+                <br>
+                <span class="genre"><em>Genre:</em>Non-Fiction</span>
+                <br>
+                <span class="description"><em>Description: </em>A fascinating story about the impact of a woman's cells on medical science.</span>
+            </div>
+            <div id="book-delete"><button id="delete">×</button></div>
+        </div>
+
+        <div class="books" id="fiction">
+            <div id="book-description"><span id="book-name">Harry Potter series</span>
+                <div class="stars">
+                    <i class="fa-solid fa-star one"></i>
+                    <i class="fa-solid fa-star two"></i>
+                    <i class="fa-solid fa-star three"></i>
+                    <i class="fa-solid fa-star four"></i>
+                    <i class="fa-solid fa-star five"></i> 
+                </div>
+                <br>
+                <span class="genre"><em>Genre:</em> Fiction</span>
+                <br>
+                <span class="description"><em>Description: </em>A beloved fantasy series chronicling the magical adventures of a young wizard.</span>
+            </div>
+            <div id="book-delete"><button id="delete">×</button></div>
+        </div>
+
+        <div class="books" id="non-fiction">
+            <div id="book-description"><span id="book-name">Thinking, Fast and Slow</span>
+                <div class="stars"> 
+                    <i class="fa-solid fa-star one"></i>
+                    <i class="fa-solid fa-star two"></i>
+                    <i class="fa-solid fa-star three"></i>
+                    <i class="fa-solid fa-star four"></i>
+                    <i class="fa-solid fa-star five"></i> 
+                </div>                
+                <br>
+                <span class="genre"><em>Genre:</em>Non-Fiction</span>
+                <br>
+                <span class="description"><em>Description: </em> A compelling exploration of human decision-making and cognitive biases.</span>
+            </div>
+            <div id="book-delete"><button id="delete">×</button></div>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
